@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, rgb(228, 80, 11), yellow);
+        }
+        .tela-login{
+            background-color: rgba(0, 0, 0, 0.9);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 80px;
+            border-radius: 15px;
+            color: white;
+        }
+        h1{
+            font-size: 32px;
+        }
+        input{
+            padding: 15px;
+            border: none;
+            border-radius: 2px;
+            outline: none;
+            font-size: 15px;
+        }
+        button{
+            color: white;
+            background-color: orangered;
+            border: none;
+            border-radius: 5px;
+            padding: 15px;
+            width: 100%;
+            font-size: 22px;
+        }
+        button:hover{
+            background-color: orange;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="tela-login">
+        <h1>Login</h1>
+        <input type="text" placeholder="E-mail de usuário">
+        <br><br>
+        <input type="password" placeholder="Senha">
+        <br><br>
+        <button>Enviar</button>
+        <br><br>
+        <button>Cadastrar</button>
+        
+    </div>
+</body>
+</html>
