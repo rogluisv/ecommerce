@@ -1,2 +1,2 @@
 # ecommerce
-sistema de ecommerce em PHP
+sistema de ecommerce em PHP com MySQL
